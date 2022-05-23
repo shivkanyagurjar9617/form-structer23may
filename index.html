@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>html form structer</title>
+        <style>
+            .s_text{
+                color:red;
+               
+            }
+            h1{
+                text-align:center;
+                color:crimson;
+            }
+            .box{
+                width:350px;
+                height:350px;
+                border:10px solid black;
+                margin:auto;
+                text-align:center;
+                padding-top:10px;
+                margin-top: 20px;
+            }
+            input:focus{
+               background-color:beige;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>html form</h1>
+            <div class="box">
+                <form>
+                    <div class="s_text">first name
+                    <input type="text"name="firstname" placeholder="enter your First Name">
+                    </div>
+                    <br>
+                    <div class="s_text">last name
+                    <input type="text"name="lastname" placeholder="enter your last Name">
+                    </div>
+                    <br>
+                    <div class="s_text">password
+                    <input type="password"name="password" placeholder="enter your password">
+                    </div>
+                <br>
+                    <button type="submit">submit</button>
+                </form>
+           </div>
+    </body>
+</html>
